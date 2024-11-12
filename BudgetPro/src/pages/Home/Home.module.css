@@ -1,0 +1,140 @@
+/* src/pages/Home/Home.module.css */
+
+.wrapper {
+  padding: 16px;
+  min-height: 100vh;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menuButton {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.incomeOverview {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.incomeCircle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: conic-gradient(#ff7676 0% 30%, #a8df65 30% 70%, #f1c40f 70% 100%);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.incomeText {
+  color: #333;
+}
+
+.legend {
+  margin-top: 20px;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.budgetDot, .goalsDot, .savingsDot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.budgetDot {
+  background-color: #a8df65;
+}
+
+.goalsDot {
+  background-color: #ff7676;
+}
+
+.savingsDot {
+  background-color: #f1c40f;
+}
+
+.statusText {
+  margin-top: 10px;
+  color: #888;
+}
+
+.cardsSection {
+  margin-top: 30px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background: #fffbf2;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  margin-top: 20px;
+}
+
+.cardDetails {
+  text-align: left;
+}
+
+.cardDate {
+  color: #ff7676;
+  font-weight: bold;
+}
+
+.goalsSection {
+  margin-top: 30px;
+}
+
+.goal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background: #f2fbff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  margin-top: 20px;
+}
+
+.goalIcon {
+  width: 50px;
+  height: 50px;
+  background: #ff7676;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.goalDetails {
+  flex: 1;
+  text-align: left;
+}
+
+.goalAmount {
+  color: #a8df65;
+  font-weight: bold;
+}

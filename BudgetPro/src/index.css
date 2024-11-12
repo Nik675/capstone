@@ -1,0 +1,26 @@
+/* index.css */
+
+:root {
+  --primary-color: #ff7676;
+  --secondary-color: #a8df65;
+  --text-color: #333;
+  --background-color: #f9f9f9;
+  --font-family: 'Roboto', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

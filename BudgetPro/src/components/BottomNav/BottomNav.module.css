@@ -1,0 +1,27 @@
+/* src/components/BottomNav/BottomNav.module.css */
+
+.bottomNav {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0;
+      background-color: #ffffff;
+      box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+      z-index: 10;
+    }
+    
+    .navItem {
+      font-size: 14px;
+      text-align: center;
+      flex: 1;
+      color: #888;
+      cursor: pointer;
+    }
+    
+    .navItem:hover {
+      color: #ff7676;
+    }
+    
